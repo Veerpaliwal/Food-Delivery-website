@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.main-header{
+
+}
+
+.header1{
+    height: 70px;
+    background-color: rgb(248, 248, 246);
+    display: flex;
+    align-items: center;   
+}
+
+.foodie{
+    margin-left: 70px;
+    color:rgb(243, 188, 38);
+}
+
+.box1{
+    margin-left: 250px;
+}
+.box2{
+    margin-left: 20px;
+}
+.box3{
+    margin-left: 20px;
+}
+.box4{
+    margin-left: 20px;
+}
+.box5{
+    margin-left: 20px;
+}
+
+.bag{
+    margin-left: 250px;
+    color: black;
+}
+
+.button {
+    background-color: rgb(243, 188, 38);
+    color: white;
+    padding: 7px 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: none;
+}
+
+/*  Box2  */
+
+.area1{
+
+    display: flex;
+
+}
+
+
+
+.main1{
+
+    font-size: 60px;
+
+    font-weight: bold;
+
+    margin-top: 150px;
+
+    margin-left: 50px;
+
+    
+
+}
+
+.color{
+
+    color: rgb(243, 188, 38);
+
+}
+
+.h1 {
+
+    font-size: 1000px;
+
+    
+
+}
+
+
+
+.box-img {
+
+    height: 350px;
+
+    width: 500px;
+
+
+
+    background-image: url("./imags/pizza.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    margin-top: 50px;
+
+    margin-left: 200px;
+
+}
+
+
+
+.will {
+
+    font-size: 16px;
+
+    font-weight: normal;
+
+    margin-top: 0;
+
+}
