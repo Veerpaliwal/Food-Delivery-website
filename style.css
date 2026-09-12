@@ -332,41 +332,55 @@
     border-radius: 30px;
 }
 
-.text-content {
+/* RIGHT SIDE */
+
+.review-content {
+    width: 600px;
     margin-top: 100px;
 }
 
-.reviews{
+
+/* OUR REVIEWS */
+
+.reviews {
     color: #EBB636;
     font-weight: bold;
-    margin-bottom: 120px;
-    position: relative;
-     right: 30px;
-    
+    margin-bottom: 5px;
 }
 
-.say{
+
+/* WHAT THEY SAY */
+
+.say {
     font-weight: bold;
-    margin-bottom: 50px;
-     position: relative;
-     right: 245px;
+    margin-bottom: 30px;
 }
 
+
+/* SLIDER */
 
 #reviewSlider {
     width: 600px;
-    margin-top: 30px;
 }
 
+
+/* REVIEW */
+
 .review-card {
-    padding: 20px 60px;
+    padding: 10px 50px;
 }
+
+
+/* USER */
 
 .review-user {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
+
+/* PROFILE IMAGE */
 
 .review-user img {
     width: 65px;
@@ -375,21 +389,58 @@
     object-fit: cover;
 }
 
+
+/* NAME */
+
 .review-user h3 {
     margin: 0;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bold;
 }
 
+
+/* STARS */
+
 .stars {
     color: #F3BC26;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 5px;
 }
 
+
+/* REVIEW TEXT */
+
 .review-card p {
     margin-top: 25px;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.6;
     color: #777;
+}
+
+.carousel-control-prev-icon {
+    background-color: #EBB636;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 200px;
+}
+
+.carousel-control-next-icon {
+    background-color: #EBB636;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 200px;
+}
+
+.area3{
+    display: flex;
+    align-items: center;
+}
+.image1{
+   background-image: url('./imags/image1.png') ;
+   height: 550px;
+   width: 600px;
+   margin-top: 50px;
+   margin-left: 20px;
 }
